@@ -11,22 +11,8 @@ export default [
                 file: 'dist/uniqueID.common.js'
             }
         ],
-        // plugins: [resolve(), typescript(), commonjs()],
         watch: {
             include: 'src/**'
         }
     }
-    // {
-    //     input: 'dist/scroll.js',
-    //     output: {
-    //         format: 'esm',
-    //         file: 'dist/scroll.min.js'
-    //     },
-    //     plugins: [
-    //         terser({
-    //             compress: true,
-    //             mangle: true
-    //         })
-    //     ]
-    // }
 ];
